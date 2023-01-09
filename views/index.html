@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> NeRu Image Uploader </title>
+  </head>
+  <body>
+    <p> Upload an image, and enter number to receive an image link</p>
+    <form method="POST" action="upload" enctype="multipart/form-data">
+      <label>
+        Image
+        <input name="image" type="file" accept="image/*" required />
+      </label>
+      <br/>
+      <label>
+        Number:
+        <input name="number" type="text" id="number" required />
+      </label>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
