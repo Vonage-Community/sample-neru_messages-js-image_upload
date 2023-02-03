@@ -16,10 +16,6 @@ app.get('/_/health', async (req, res) => {
     res.sendStatus(200);
 });
 
-app.get('/', async (req, res) => {
-    res.sendFile('views/index.html', { root: '.' });
-});
-
 app.post('/upload', async (req, res, next) => {
     try { 
         const bb = busboy({ headers: req.headers });
