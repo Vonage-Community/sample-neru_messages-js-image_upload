@@ -1,5 +1,7 @@
 # Uploading an Image using NeRu Assets
 
+## ❗❗❗ **This repo is now deprecated. Check the [Vonage Developer Blog](https://developer.vonage.com/en/blog) for more blog posts and tutorials. For more sample Vonage projects, check the [Vonage Community GitHub repo](https://github.com/Vonage-Community).**
+
 This project shows how to use the NeRu Assets provider to upload an image to the NeRu platform and generate a public link for the image.
 
 ![The static site](site.png)
